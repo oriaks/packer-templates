@@ -10,10 +10,12 @@ These are Packer templates to build our base images for Vagrant/VirtualBox at Or
 
 ## How to use
 
-    git clone https://github.com/oriaks/packer-templates.git
-    cd packer-templates/debian-jessie
-    packer build template.json
-    vagrant box add --name debian-jessie debian-jessie.box
+```console
+git clone https://github.com/oriaks/packer-templates.git
+cd packer-templates/debian-jessie
+packer build template.json
+vagrant box add --name debian-jessie debian-jessie.box
+```
 
 ## ToDo
 
