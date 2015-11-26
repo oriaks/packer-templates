@@ -284,7 +284,6 @@
                     </LocalAccount>
                 </LocalAccounts>
             </UserAccounts>
-            <RegisteredOwner/>
         </component>
     </settings>
     <settings pass="offlineServicing">

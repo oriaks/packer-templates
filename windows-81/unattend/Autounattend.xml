@@ -284,7 +284,6 @@
                     </LocalAccount>
                 </LocalAccounts>
             </UserAccounts>
-            <RegisteredOwner/>
             <ShowWindowsLive>false</ShowWindowsLive>
         </component>
     </settings>
