@@ -265,9 +265,6 @@
             </FirstLogonCommands>
             <OOBE>
                 <HideEULAPage>true</HideEULAPage>
-                <HideLocalAccountScreen>true</HideLocalAccountScreen>
-                <HideOEMRegistrationScreen>true</HideOEMRegistrationScreen>
-                <HideOnlineAccountScreens>true</HideOnlineAccountScreens>
                 <HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
                 <NetworkLocation>Home</NetworkLocation>
                 <ProtectYourPC>1</ProtectYourPC>
@@ -290,7 +287,6 @@
                     </LocalAccount>
                 </LocalAccounts>
             </UserAccounts>
-            <RegisteredOwner/>
             <ShowWindowsLive>false</ShowWindowsLive>
         </component>
     </settings>
