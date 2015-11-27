@@ -3,6 +3,9 @@
 netsh advfirewall firewall add rule name="Open Port 3389" dir=in action=allow protocol=TCP localport=3389
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 
+::There's a bug in this script that prevents Windows to install correctly, so we have to skip it until it's fixed.
+exit /b
+
 ::Disable Auto Logon
 
 %windir%\microsoft.net\framework64\v4.0.30319\ngen.exe executequeueditemsreg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon" /v AutoAdminLogon /d 0 /f
