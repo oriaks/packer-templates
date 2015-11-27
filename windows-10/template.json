@@ -13,7 +13,7 @@
         "scripts/win-updates.ps1"
       ],
       "guest_additions_mode": "disable",
-      "guest_os_type": "Windows10_64",
+      "guest_os_type": "Windows81_64",
       "headless": false,
       "iso_checksum": "56ab095075be28a90bc0b510835280975c6bb2ce",
       "iso_checksum_type": "sha1",
