@@ -1,0 +1,17 @@
+Vagrant.configure(2) do |config|
+  config.vm.box = "debian-jessie64"
+  config.vm.box_url = "file://../../debian-jessie64-virtualbox.box"
+
+  config.vm.provision "shell", inline: <<-SHELL
+    export DEBIAN_FRONTEND=noninteractive
+
+    apt-get update
+    apt-get install -y postfix
+
+    apt-get autoremove -y
+    apt-get clean -y
+
+    rm -rf /vagrant
+    rm -rf /var/lib/dhcp/*
+  SHELL
+end
